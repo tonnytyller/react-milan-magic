@@ -43,7 +43,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-muted-foreground">hello@milancrochet.com</p>
+                      <a href="mailto:milanscrotchetworld@gmail.com" className="text-muted-foreground hover:text-primary">
+                        milanscrotchetworld@gmail.com
+                      </a>
                     </div>
                   </div>
 
@@ -52,8 +54,10 @@ const Contact = () => {
                       <Phone className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                      <h3 className="font-semibold mb-1">Phone / WhatsApp</h3>
+                      <a href="https://wa.me/254791174063" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+                        +254 791 174 063
+                      </a>
                     </div>
                   </div>
 
@@ -64,23 +68,23 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Location</h3>
                       <p className="text-muted-foreground">
-                        123 Craft Street<br />
-                        Artisan District, CA 90210
+                        Ngong Town<br />
+                        Kajiado County, Kenya
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-8 p-6 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold mb-3">Business Hours</h3>
+                  <h3 className="font-semibold mb-3">Business Hours (EAT)</h3>
                   <div className="space-y-2 text-sm text-muted-foreground">
                     <div className="flex justify-between">
                       <span>Monday - Friday</span>
-                      <span>9:00 AM - 6:00 PM</span>
+                      <span>8:00 AM - 6:00 PM</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Saturday</span>
-                      <span>10:00 AM - 4:00 PM</span>
+                      <span>9:00 AM - 5:00 PM</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Sunday</span>
